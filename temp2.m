@@ -15,7 +15,7 @@ for i =1:1:n
     
     elseif(i>k)
     if (j+(i-k)<=k)
-     #here we have write code to implement if yn>max of Both signals
+     #here we have written code to implement if yn>max of Both signals
      y(i) = y(i)+ x(j+(i-k))*h((i-j)-(i-(k+1)));
     
       endif
